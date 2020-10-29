@@ -1,0 +1,29 @@
+{
+    "hostTag": "$HOST",
+    "fileResolutionTag": "$RESOLUTION",
+    "localhost":"http://172.17.0.1:8081",
+    "prod": "",
+    "codec": "",
+    "intro": {
+        "url": "$HOST/timeline/01.intro-12.733333-$RESOLUTION.mp4/",
+        "at": "",
+        "options": ["guitarra","violao"],
+        "defaultOption": "Guitarra"
+    },
+    "guitarra": {
+        "url": "$HOST/timeline/02.guitarra-20.733333-$RESOLUTION.mp4/",
+        "at": "",
+        "options": ["finalizar","violao"],
+        "defaultOption": "finalizar"
+    },
+    "violao": {
+        "url": "$HOST/timeline/02.violao-31.066667-$RESOLUTION.mp4/",
+        "at": "",
+        "options": ["finalizar","guitarra"],
+        "defaultOption": "finalizar"
+    },
+    "finalizar": {
+        "url": "$HOST/timeline/03.encerramento-4.733333-$RESOLUTION.mp4/",
+        "at": ""
+    }
+}
